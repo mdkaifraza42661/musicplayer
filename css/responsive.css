@@ -1,0 +1,68 @@
+@media (min-width: 300px) and (max-width: 600px) { 
+    .wrapper {
+        border: 1px solid transparent;
+        padding: 1px;
+        border-radius: 20px;
+        box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
+    }
+
+    .track-art {
+        margin: 9px;
+        height: 180px;
+        width: 180px;
+        border: 2px solid #fff;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        -moz-box-shadow: 0px 6px 5px #ccc;
+        -webkit-box-shadow: 0px 6px 5px #ccc;
+        box-shadow: 0px 6px 5px #ccc;
+        -moz-border-radius: 190px;
+        -webkit-border-radius: 190px;
+        border-radius: 190px;
+    }
+    .now-playing {
+        font-size: 1rem;
+        padding-top: 14px;
+    }
+    .repeat-track, .random-track, .playpause-track, .prev-track, .next-track {
+        padding: 8px;
+        opacity: 0.8;
+        transition: opacity .2s;
+    }
+    .track-name {
+        font-size: 0.99rem;
+        margin: 5px 0px 0px 0px;
+    }
+    .track-artist {
+        margin-top: 5px;
+        font-size: 0.95rem;
+    }
+    .current-time, .total-duration {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+    .fa-2x {
+        font-size: 1.5em!important;
+    }
+    .loader {
+        height: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 6px;
+        justify-content: center;
+    }
+    .fa-5x {
+        font-size: 3em!important;
+    }
+
+
+
+ }
